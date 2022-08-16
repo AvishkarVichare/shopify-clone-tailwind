@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                herocolor:'#fbf7ed',
+                shopicolor:'#014d3f',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-[Roboto]">
+    
+    <!-- navbar  -->
+
+    <nav class="px-[93px] py-[18px] bg-herocolor">
+        <div class="container  flex justify-between items-center mx-auto text-[17px] font-[500] text-gray-600  " >
+            <div class="flex items-center gap-10">
+                <img class="w-[122px]" src="assets/logo.png" alt="">
+
+                <ul class="flex gap-8">
+                    <li>
+                        <a href="">
+                            Start
+                        </a>
+                        <i class="fa-solid fa-angle-down"></i>
+                        
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Sell
+                        </a>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Market
+                        </a>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Manage
+                        </a>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <ul class="flex gap-8 items-center">
+
+                <li>
+
+                    <a href="">
+                        Pricing
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="">
+                        Learn
+                    </a>
+                    <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                <li>
+                   <a href="">
+                    Log in
+                   </a>
+                </li>
+
+                <li>
+                    <button class="bg-[#008060] text-white py-[11px] px-5 rounded-md">
+                        Try for free
+                    </button>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- hero section -->
+
+    <section class="bg-herocolor px-[93px] py-[80px] ">
+        <div class="container flex flex-col xl:flex-row items-center ">
+
+            <div class="flex-[.5] ">
+
+                <h1 class="text-[2.9rem] font-[900] text-shopicolor w-[500px] mb-7">
+                    The easiest way to sell online in India
+                </h1>
+
+                <p class="text-[20px] text-gray-500 mb-6 pr-[100px]">
+                    Try one of the most powerful platforms on the market for free. No technical knowledge needed.
+                </p>
+
+                <form action="" class="flex  gap-3 mb-6">
+
+                    <input class="text-[17px] w-[420px] border-[1px] border-black rounded-[4px] px-4 py-3" type="text" placeholder="Enter your email address">
+
+                    <button class="bg-[#008060] text-white py-[11px] px-9 rounded-md font-[500]">
+                        Try for free
+                    </button>
+
+                </form>
+
+                <p class="text-[13px] text-gray-700 pr-[60px]">
+                    Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.
+                </p>
+
+            </div>
+
+            <div class="flex-[.5] ">
+                <video autoplay loop src="assets/hero-v1.webm"></video>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- section 1 -->
+
+    <section class="px-[93px] py-[90px] bg-shopicolor text-white">
+
+        <div class="container">
+
+            <h1 class="text-[2.3rem] mb-2">
+                Bring your business online
+            </h1>
+
+            <div class="flex justify-between text-[16px]">
+
+                <p>
+                    Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.
+                </p>
+
+                <a class="flex items-center group" href="">
+                    Explore more examples
+                    <div class="relative w-[15px] h-[15px]">
+                        <i class="fa-solid fa-arrow-right text-[15px] ease-in duration-300 absolute left-[5px] group-hover:left-[10px]"></i>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+</html>
