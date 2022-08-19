@@ -1,7 +1,7 @@
 ![image](https://img.shields.io/badge/tailwind-Shopify-green)
 
 
-## Paytm website clone using tailwind CSS  [live Link](https://shopify-clone-tailwind.netlify.app/)
+## Shopify website clone using tailwind CSS  [live Link](https://shopify-clone-tailwind.netlify.app/)
 
 **Name:** Avishkar Vichare
 
